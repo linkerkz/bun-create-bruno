@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "type": "module",
     "bin": {
-        "create-bruno": "index.ts"
+        "bruno": "index.ts"
     },
     "devDependencies": {
         "@types/bun": "latest"
