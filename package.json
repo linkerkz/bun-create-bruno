@@ -1,15 +1,11 @@
 {
     "name": "@linkerkz/create-bruno",
     "version": "1.0.0",
-    "main": "index.ts",
-    "bin": "index.ts",
-    "module": "index.ts",
     "type": "module",
-    "private": true,
+    "bin": {
+        "create-bruno": "index.ts"
+    },
     "devDependencies": {
         "@types/bun": "latest"
-    },
-    "peerDependencies": {
-        "typescript": "^5"
     }
 }

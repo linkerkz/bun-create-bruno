@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 import { $ } from "bun";
 import { mkdir, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
